@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  padding: 48px;
+  color: darkgray;
+}
+a {
+  color: darkgray;
+}
+.searchbar {
+  width: 100%;
+}
+#tuiter-search-bar {
+  width: 90%;
+  color: white;
+  border-radius: 15px;
+  border: solid 0.5px darkgray;
+  padding: 9px 4px 9px 40px;
+  background: #25282a url("../imgs/search.svg") no-repeat 13px center;
+  background-size: 16px;
+}
+
+input {
+  background-color: darkgray;
+}
+img {
+  width: 16px;
+  margin: 0 12px;
+  filter: invert(40%) sepia(89%) saturate(1966%) hue-rotate(201deg)
+    brightness(103%) contrast(101%);
+}
+.tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.tabs-selected {
+  color: #3388ff;
+  border-bottom: solid 4px;
+}
+a {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 16px;
+  color: rgb(110, 118, 125);
+  font-size: 15px;
+}
+.post {
+  padding: 48px 16px;
+  border: solid 0.5px darkgray;
+}
+
+.post-with-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.post-text {
+  width: 80%;
+}
+.post-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+}
+h5 {
+  color: rgb(110, 118, 125);
+  font-size: 13px;
+  font-weight: normal;
+}
+h3 {
+  color: white;
+}
+
+h5,
+h3 {
+  margin: 4px;
+}
+
+span {
+  color: white;
+}
