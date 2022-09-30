@@ -5,8 +5,6 @@ body {
   background-color: black;
 }
 .container {
-  height: 100%;
-  width: 100%;
   padding: 48px;
   color: darkgray;
 }
@@ -17,7 +15,7 @@ a {
   width: 100%;
 }
 #tuiter-search-bar {
-  width: 90%;
+  width: calc(100% - 64px);
   color: white;
   border-radius: 15px;
   border: solid 0.5px darkgray;
