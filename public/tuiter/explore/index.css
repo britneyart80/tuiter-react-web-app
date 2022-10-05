@@ -47,18 +47,32 @@ a {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
+  align-items: center;
 }
 .wd-post-text {
-  width: 80%;
+  flex: 1;
 }
 .wd-post-img {
   width: 100px;
   height: 100px;
   border-radius: 15px;
+  margin: 4px;
 }
 
 .wd-left-nav li i {
   margin-right: 8px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .wd-left-nav li h5 {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  ul li.wd-last-item {
+    display: none;
+  }
 }
 
 .wd-right-nav li img {
@@ -67,12 +81,17 @@ a {
   margin-right: 8px;
 }
 
-.wd-right-nav li h5 {
-  margin-bottom: 0;
+.wd-right-nav button,
+.wd-left-nav button {
+  /* margin: 4px; */
+  border-radius: 25px;
 }
 
+.wd-left-nav button {
+  width: 100%;
+}
 .wd-right-nav,
-.wd-left-nav {
+.wd-left-nav ul {
   overflow: hidden;
 }
 .wd-follow-subtext {
@@ -84,12 +103,4 @@ h1.wd-card-title {
   left: 12px;
   color: white;
   margin-bottom: -28.8;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-  margin: 4px 0;
 }
