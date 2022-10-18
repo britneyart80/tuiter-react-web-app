@@ -24,6 +24,7 @@ const PostSummaryItem = ({
             width={70}
             className="float-end rounded-3"
             src={`/images/${post.image}`}
+            alt={post.topic}
           />
         </div>
       </div>
