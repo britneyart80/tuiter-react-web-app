@@ -4,10 +4,9 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import "./App.css";
 import HelloWorld from "./labs/a6/hello-world";
 import Labs from "./labs/index";
-import Tuiter from "./tuiter";
+import Tuiter from "./tuiter/index";
 import { BrowserRouter } from "react-router-dom";
 import { Routes, Route } from "react-router";
-import Assignment6 from "./labs/a6";
 
 function App() {
   return (
