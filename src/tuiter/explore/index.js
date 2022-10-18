@@ -1,5 +1,6 @@
 import React from "react";
 import PostSummaryList from "../post-summary-list";
+import headerImg from "../../imgs/starship.jpeg";
 import "./index.css";
 const ExploreComponent = () => {
   return (
@@ -34,7 +35,7 @@ const ExploreComponent = () => {
         </li>
       </ul>
       <div className="position-relative mb-2">
-        <img src="imgs/starship.jpeg" className="w-100" />
+        <img src={headerImg} className="w-100" />
         <h1 className="position-absolute wd-nudge-up text-white">
           SpaceX Starship
         </h1>
