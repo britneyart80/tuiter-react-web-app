@@ -1,0 +1,58 @@
+[
+  {
+    "_id": 1,
+    "topic": "Space",
+    "userName": "SpaceX",
+    "time": "2h",
+    "title": "Some spaceX news",
+    "image": "../../tuiter/imgs/tesla.png",
+    "liked": true,
+    "replies": 32,
+    "retuits": 40,
+    "likes": 22,
+    "handle": "@Tesla",
+    "tuit": "Tesla Cybertruck lands on Mars and picks up the Curiosity rover on its 6' bed"
+  },
+  {
+    "_id": 2,
+    "topic": "Space",
+    "userName": "SpaceX",
+    "time": "2h",
+    "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
+    "image": "../../tuiter/imgs/spacex.svg",
+    "liked": true,
+    "replies": 123,
+    "retuits": 432,
+    "likes": 2345,
+    "handle": "@spacex",
+    "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
+  },
+  {
+    "_id": 3,
+    "topic": "Space",
+    "userName": "SpaceX",
+    "time": "2h",
+    "title": "Some spaceX news",
+    "image": "../../tuiter/imgs/relativity.jpeg",
+    "liked": true,
+    "replies": 30,
+    "retuits": 79,
+    "likes": 229,
+    "handle": "@SpaceX",
+    "tuit": "Tesla Cybertruck lands on Mars and picks up the Curiosity rover on its 6' bed"
+  },
+  {
+    "_id": 4,
+    "topic": "Space",
+    "userName": "SpaceX",
+    "time": "2h",
+    "title": "Some spaceX news",
+    "image": "../../tuiter/imgs/tesla.png",
+    "liked": true,
+    "replies": 322,
+    "retuits": 420,
+    "likes": 20,
+    "handle": "@Tesla",
+    "tuit": "Tesla Cybertruck lands on Mars and picks up the Curiosity rover on its 6' bed"
+  }
+]
