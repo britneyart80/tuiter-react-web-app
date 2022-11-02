@@ -2,7 +2,6 @@ import React from "react";
 import PostSummaryList from "../post-summary-list";
 import headerImg from "../../imgs/starship.jpeg";
 import "./index.css";
-import TuitsList from "../tuits/tuits-list";
 const ExploreComponent = () => {
   return (
     <>

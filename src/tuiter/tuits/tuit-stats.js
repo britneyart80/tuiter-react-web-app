@@ -13,22 +13,31 @@ const TuitStats = ({ tuit }) => {
   return (
     <div className="states d-flex justify-content-around">
       <div style={statStyles}>
-        <img src="../../tuiter/imgs/chat.svg" style={imgStyles} />
+        <img src="../../tuiter/imgs/chat.svg" style={imgStyles} alt="chat" />
         <h6 style={labelStyles}>{replies}</h6>
       </div>
       <div style={statStyles}>
-        <img src="../../tuiter/imgs/retweet.svg" style={imgStyles} />
+        <img
+          src="../../tuiter/imgs/retweet.svg"
+          style={imgStyles}
+          alt="retuit"
+        />
         <h6 style={labelStyles}>{retuits}</h6>
       </div>
       <div style={statStyles}>
         <img
           src={`../../tuiter/imgs/like${liked ? "-red" : ""}.svg`}
           style={imgStyles}
+          alt="like"
         />
         <h6 style={labelStyles}>{likes}</h6>
       </div>
       <div style={statStyles}>
-        <img src="../../tuiter/imgs/export.svg" style={imgStyles} />
+        <img
+          src="../../tuiter/imgs/export.svg"
+          style={imgStyles}
+          alt="export"
+        />
       </div>
     </div>
   );

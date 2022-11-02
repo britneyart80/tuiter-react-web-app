@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import ExploreComponent from "./explore";
 import NavigationSidebar from "./navigation-sidebar";
 import WhoToFollowList from "./who-to-follow-list";

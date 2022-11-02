@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useState } from "react";
 import "./index.css";
 
 const NavigationSidebar = () => {
@@ -25,42 +25,42 @@ const NavigationSidebar = () => {
         Explore
       </a>
       <a
-        href=""
+        href="/tuiter"
         className={`list-group-item
                     ${active === "notifications" ? "active" : ""}`}
       >
         Notifications
       </a>
       <a
-        href=""
+        href="/tuiter"
         className={`list-group-item
                     ${active === "messages" ? "active" : ""}`}
       >
         Messages
       </a>
       <a
-        href=""
+        href="/tuiter"
         className={`list-group-item
                     ${active === "bookmarks" ? "active" : ""}`}
       >
         Bookmarks
       </a>
       <a
-        href=""
+        href="/tuiter"
         className={`list-group-item
                     ${active === "lists" ? "active" : ""}`}
       >
         Lists
       </a>
       <a
-        href=""
+        href="/tuiter"
         className={`list-group-item
                     ${active === "profile" ? "active" : ""}`}
       >
         Profile
       </a>
       <a
-        href=""
+        href="/tuiter"
         className={`list-group-item
                     ${active === "more" ? "active" : ""}`}
       >
