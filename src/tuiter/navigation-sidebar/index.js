@@ -10,7 +10,7 @@ const NavigationSidebar = () => {
         Tuiter
       </a>
       <a
-        href="home"
+        href="/tuiter/home"
         onClick={() => setActive("home")}
         className={`list-group-item
                     ${active === "home" ? "active" : ""}`}
