@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./index.css";
 
 const NavigationSidebar = () => {
@@ -6,66 +7,66 @@ const NavigationSidebar = () => {
 
   return (
     <div className="list-group wd-nav-sidebar">
-      <a href="/tuiter" className="list-group-item">
+      <Link to="/tuiter" className="list-group-item">
         Tuiter
-      </a>
-      <a
-        href="/tuiter/home"
+      </Link>
+      <Link
+        to="/tuiter/home"
         onClick={() => setActive("home")}
         className={`list-group-item
                     ${active === "home" ? "active" : ""}`}
       >
         Home
-      </a>
-      <a
-        href="/tuiter"
+      </Link>
+      <Link
+        to="/tuiter"
         className={`list-group-item
                     ${active === "explore" ? "active" : ""}`}
       >
         Explore
-      </a>
-      <a
-        href="/tuiter"
+      </Link>
+      <Link
+        to="/tuiter"
         className={`list-group-item
                     ${active === "notifications" ? "active" : ""}`}
       >
         Notifications
-      </a>
-      <a
-        href="/tuiter"
+      </Link>
+      <Link
+        to="/tuiter"
         className={`list-group-item
                     ${active === "messages" ? "active" : ""}`}
       >
         Messages
-      </a>
-      <a
-        href="/tuiter"
+      </Link>
+      <Link
+        to="/tuiter"
         className={`list-group-item
                     ${active === "bookmarks" ? "active" : ""}`}
       >
         Bookmarks
-      </a>
-      <a
-        href="/tuiter"
+      </Link>
+      <Link
+        to="/tuiter"
         className={`list-group-item
                     ${active === "lists" ? "active" : ""}`}
       >
         Lists
-      </a>
-      <a
-        href="/tuiter"
+      </Link>
+      <Link
+        to="/tuiter"
         className={`list-group-item
                     ${active === "profile" ? "active" : ""}`}
       >
         Profile
-      </a>
-      <a
-        href="/tuiter"
+      </Link>
+      <Link
+        to="/tuiter"
         className={`list-group-item
                     ${active === "more" ? "active" : ""}`}
       >
         More
-      </a>
+      </Link>
     </div>
   );
 };
