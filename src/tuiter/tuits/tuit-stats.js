@@ -1,6 +1,9 @@
 import React from "react";
+import { updateTuitThunk } from "../../services/tuits-thunks";
+import { useDispatch } from "react-redux";
 
 const TuitStats = ({ tuit }) => {
+  const dispatch = useDispatch();
   const { liked, likes, retuits, replies } = tuit;
   const statStyles = {
     display: "flex",
@@ -29,6 +32,14 @@ const TuitStats = ({ tuit }) => {
           src={`../../tuiter/imgs/like${liked ? "-red" : ""}.svg`}
           style={imgStyles}
           alt="like"
+          onClick={() =>
+            dispatch(
+              updateTuitThunk({
+                ...tuit,
+                likes: tuit.likes + 1,
+              })
+            )
+          }
         />
         <h6 style={labelStyles}>{likes}</h6>
       </div>
