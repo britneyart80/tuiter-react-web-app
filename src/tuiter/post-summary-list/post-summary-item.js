@@ -11,12 +11,14 @@ const PostSummaryItem = ({ post }) => {
           <div>{post.title}</div>
         </div>
         <div className="col-2">
-          <img
-            width={70}
-            className="float-end rounded-3"
-            src={require(`../../imgs/${post.image}`)}
-            alt={post.topic}
-          />
+          {post.image && (
+            <img
+              width={70}
+              className="float-end rounded-3"
+              src={require(`../../imgs/${post.image}`)}
+              alt={post.topic}
+            />
+          )}
         </div>
       </div>
     </li>

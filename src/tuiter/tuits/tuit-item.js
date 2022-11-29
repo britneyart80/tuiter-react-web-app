@@ -16,13 +16,15 @@ const TuitItem = (props) => {
     <li className="list-group-item">
       <div className="row mt-2">
         <div className="col-2">
-          <img
-            width={45}
-            height={45}
-            className="float-end rounded-circle"
-            src={require(`../../imgs/${image}`)}
-            alt={topic}
-          />
+          {image && (
+            <img
+              width={45}
+              height={45}
+              className="float-end rounded-circle"
+              src={require(`../../imgs/${image}`)}
+              alt={topic}
+            />
+          )}
         </div>
         <div className="col-10">
           <div>
