@@ -14,7 +14,7 @@ const WhatsHappening = () => {
   return (
     <div className="row">
       <div className="col-auto">
-        <img src="../../tuiter/imgs/nasa.png" width={60} alt="tuit" />
+        <img src={require("../../imgs/nasa.png")} width={60} alt="tuit" />
       </div>
       <div className="col-10">
         <textarea
