@@ -9,7 +9,7 @@ const WhoToFollowListItem = ({
           <img
             className="rounded-circle"
             height={48}
-            src={`/images/${who.avatarIcon}`}
+            src={require(`../../imgs/${who.avatarIcon}`)}
             alt="avatar"
           />
         </div>

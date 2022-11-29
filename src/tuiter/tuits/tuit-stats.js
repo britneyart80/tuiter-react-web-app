@@ -27,19 +27,22 @@ const TuitStats = ({ tuit }) => {
         />
         <h6 style={labelStyles}>{retuits}</h6>
       </div>
-      <div style={statStyles}>
+      <div
+        style={statStyles}
+        onClick={() =>
+          dispatch(
+            updateTuitThunk({
+              ...tuit,
+              liked: !tuit.liked,
+              likes: !tuit.liked ? tuit.likes + 1 : tuit.likes - 1,
+            })
+          )
+        }
+      >
         <img
           src={`../../tuiter/imgs/like${liked ? "-red" : ""}.svg`}
           style={imgStyles}
           alt="like"
-          onClick={() =>
-            dispatch(
-              updateTuitThunk({
-                ...tuit,
-                likes: tuit.likes + 1,
-              })
-            )
-          }
         />
         <h6 style={labelStyles}>{likes}</h6>
       </div>

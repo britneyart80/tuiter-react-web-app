@@ -14,7 +14,7 @@ const PostSummaryItem = ({ post }) => {
           <img
             width={70}
             className="float-end rounded-3"
-            src={`../../imgs/${post.image}`}
+            src={require(`../../imgs/${post.image}`)}
             alt={post.topic}
           />
         </div>

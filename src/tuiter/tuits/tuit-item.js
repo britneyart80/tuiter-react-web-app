@@ -20,7 +20,7 @@ const TuitItem = (props) => {
             width={45}
             height={45}
             className="float-end rounded-circle"
-            src={`../../imgs/${image}`}
+            src={require(`../../imgs/${image}`)}
             alt={topic}
           />
         </div>
